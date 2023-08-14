@@ -1,0 +1,33 @@
+
+.App {
+  display: grid;
+
+  width: 50vw;
+  height: 100vh;
+  align-content: center;
+  padding: 1px;
+  border: 2px solid blue;
+  grid-template-rows: 80% 20%;
+  grid-template-areas:
+  "Do_List"
+  "Write_Box";
+  transform: translate(50%, 0%)
+
+}
+
+
+
+
+.Do_List{
+  grid-area: Do_List;
+  border: 2px solid black;
+  grid-template-rows: 1fr;
+  padding: 10px;
+
+  overflow-y: scroll;
+}
+.Write_Box{
+  grid-area: Write_Box;
+  border: 2px solid black;
+  resize: none;
+}

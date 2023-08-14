@@ -1,0 +1,10 @@
+.Write_Box{
+    display: grid;
+    grid-area: Write_Box;
+    border: 2px solid black;
+    grid-template-columns: 5fr 1fr;
+    resize: none;
+}
+.Write_Box > textarea {
+    resize : none
+}
